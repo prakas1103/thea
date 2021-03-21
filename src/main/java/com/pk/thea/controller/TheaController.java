@@ -16,7 +16,7 @@ public class TheaController {
     private UserRepository service;
 
 
-    @GetMapping("/")
+    @GetMapping("/test")
     public String theaRestCheck(){
         return "Thea REST is working!!";
     }
